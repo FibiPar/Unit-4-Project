@@ -1,16 +1,31 @@
 /* General body styling */
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #f4f4f4;
-    color: #333;
+    color: #ad2c2c;
     line-height: 1.6;
     padding: 20px;
+}
+
+.answers {
+display:grid;
+grid-template-columns: 150px 150px;
+grid-row: auto auto;
+grid-row-gap:20px;
+grid-column-gap:20px;
+justify-content: center;
+}
+
+.answers button{
+    background-color:black;
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Title section styling */
 .title h1 {
     text-align: center;
-    color: #333;
+    color: #b04949;
 }
 
 /* Questions section styling */
@@ -23,7 +38,7 @@ body {
 }
 
 .questions h4 {
-    color: #666;
+    color: #a54444;
 }
 
 .questions img {
